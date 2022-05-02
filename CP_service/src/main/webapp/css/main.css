@@ -1,0 +1,157 @@
+@CHARSET "UTF-8";
+
+body{
+	padding:0px;
+	margin:0px;
+}
+#header{
+	
+	background:#003876;
+	color:white;
+	
+}
+
+.nav_bar {
+	width: 100%;
+	height: 40px;
+	border: solid black 1px;
+	font-size:1em;
+	margin: 0;
+	padding:0;
+}
+.nav_bar_sel{
+	margin:0px;
+	position:absolute;
+	left:60px;
+}
+.nav_bar_sel ul{margin:7px;}
+
+.nav_bar_sel  li {
+	display: inline-block;
+	list-style: none;
+	float: left;
+	padding-left: 60px;
+}
+.nav_bar a{
+	text-decoration:none;
+	color:white;
+}
+#sel1{border-bottom: 3px solid yellow;}
+#sel2{border-bottom: 3px solid #003876;}
+#sel3{border-bottom: 3px solid #003876;}
+
+.nav_bar_bottom{
+	width:100%;
+	height:80px;
+	border-bottom:1px solid black;
+}
+.nav_bar_bottom li{
+	float: left;
+	list-style:none;
+	padding:20px 50px 20px 50px;
+}
+.nav_bar_bottom a{
+	text-decoration:none;
+}
+
+#menu_dropdown1{
+
+	width:100%;
+	height: 370px;
+	background-color:yellow;
+	
+	
+}
+
+.nav_bar_right {
+	margin:0px;
+	position:absolute;
+	right:60px;
+}
+.nav_bar_right ul{margin:7px}
+
+.nav_bar_right li {
+	margin:0px;
+	display: inline-block;
+	list-style:none;
+	float:left;
+	padding-left:60px;
+}
+.intro_picbox{
+	width:100%;
+	height:500px;
+	border:solid black 1px;
+	margin:25px 25px 0px 25px;
+	background-image: url(../images/yonsei.jpg);
+	background-repeat:no-repeat;
+}
+.my_back_pic{
+	
+}
+.text_erea1{
+	width:100%;
+	height: 500px;
+	margin:0px;
+	border: solid black 1px;
+	
+}
+.text_erea2{
+	width:100%;
+	height: 300px;
+	margin:0px;
+	background: #e5f4ff;
+}
+.outer_table{
+	width:50%;
+	height:300px;
+	float: left;
+	margin-right:0px;
+	padding:0px;
+	
+	
+}
+.table_manual{
+	margin:0px;
+	padding:0px;
+	width:300px;
+	height:300px;
+	border-collapse:collapse;
+}
+.mini_box{
+	width:50%;
+	height:300px;
+	float:right;
+	padding::0px;
+}
+.mini_board{
+	width:350px;
+	height:300px;
+	margin:0px;
+	padding:0px;
+	border: 1px solid black;
+	list-style:none;
+}
+
+
+
+.table_manual td{border:solid black 1px;}
+.table_manual tr:first-child td{border-top:0}
+.table_manual tr:last-child td {border-bottom: 0;}
+.table_manual tr td:first-child,
+.table_manual tr td:first-child {border-left: 0;}
+.table_manual tr td:last-child,
+.table_manual tr td:last-child {border-right: 0;}
+
+#my_footer{
+	width:100%;
+	height:180px;
+	margin:0px;
+	padding:0px;
+	background-color:grey;
+	
+	
+}
+
+
+
+
